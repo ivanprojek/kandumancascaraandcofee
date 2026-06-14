@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Kanduman Cascara & Coffee for wholesale and retail orders of Robusta, Arabica, and Cascara. Email: niluh.osiniditami@gmail.com">
+  <meta name="contact" content="niluh.osiniditami@gmail.com">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-container container">
+      <div class="nav-logo">
+        <img src="assets/images/Untitled design (2)-Photoroom.png" alt="Kanduman Cascara & Coffee logo" class="nav-logo-icon">
+        <div class="brand-text">
+          <span class="brand-title">Kanduman</span>
+          <span class="brand-subtitle">Cascara & Coffee</span>
+        </div>
+      </div>
+      
+      <div class="nav-overlay"></div>
+      
+      <ul class="nav-menu">
+        <li><a href="index.html#why-buy" data-i18n="nav-why-buy">Why Buy</a></li>
+        <li><a href="collection.html" data-i18n="nav-collection">Collection</a></li>
+        <li><a href="contact.html" class="active" data-i18n="nav-contact">Contact</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </div>
+        <div class="nav-cta">
+          <a href="mailto:niluh.osiniditami@gmail.com" class="btn btn-accent" data-i18n="nav-cta">Hubungi Kami</a>
+        </div>
+      </div>
+
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <h1 data-i18n="contact-title">Let's Connect with Kanduman Cascara & Coffee</h1>
+          <p class="subtitle" data-i18n="contact-subtitle">
+            For inquiries about Robusta, Arabica, cascara, wholesale pricing, or custom orders — reach out and we'll respond promptly.
+          </p>
+          <div class="hero-cta hero-cta-collection-contact">
+            <a href="#contact-section" class="btn btn-primary" data-i18n="contact-message">Send an Email</a>
+            <a href="https://wa.me/6282139891329?text=Halo%20Kanduman%20Cascara%20%26%20Coffee%2C%20saya%20ingin%20bertanya%20tentang%20pemesanan%2C%20konsultasi%20produk%2C%20dan%20kerja%20sama%20bisnis" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" data-i18n="contact-wa">
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact-section">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="contact-form-title">Get in Touch</h2>
+        <p data-i18n="contact-form-desc">We're here to help and answer any question you might have</p>
+      </div>
+      
+      <div class="grid-2">
+        <!-- CONTACT FORM -->
+        <div data-reveal>
+          <h3 style="margin-bottom: var(--sp-24); color: var(--color-text-primary);" data-i18n="contact-section-form-heading">Send Us an Email</h3>
+          
+          <form id="contact-form" action="https://formspree.io/f/mkgobnvk" method="POST">
+            <div class="form-group">
+                  <label class="form-label" for="name" data-i18n="contact-form-name">Full Name *</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Your Full Name" required>
+              </div>
+              
+              <div class="form-field">
+                  <label class="form-label" for="email" data-i18n="contact-form-email">Email Address *</label>
+                <input class="form-input" type="email" id="email" name="_replyto" placeholder="your.email@example.com" required>
+              </div>
+              
+              <div class="form-field">
+                  <label class="form-label" for="phone" data-i18n="contact-form-phone">Phone Number</label>
+                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+62 821-3989-1329">
+              </div>
+              
+              <div class="form-field">
+                  <label class="form-label" for="company" data-i18n="contact-form-company">Company Name</label>
+                <input class="form-input" type="text" id="company" name="company" placeholder="Your Company">
+              </div>
+              
+              <div class="form-field">
+                  <label class="form-label" for="subject" data-i18n="contact-form-subject">Subject</label>
+                <select class="form-select" id="subject" name="subject">
+                  <option value="" data-i18n="contact-form-subject-placeholder">Select a topic</option>
+                  <option value="wholesale" data-i18n="contact-form-subject-wholesale">Wholesale Inquiry</option>
+                  <option value="business" data-i18n="contact-form-subject-business">Business Inquiry</option>
+                  <option value="support" data-i18n="contact-form-subject-support">Customer Support</option>
+                  <option value="custom" data-i18n="contact-form-subject-custom">Custom Orders</option>
+                  <option value="other" data-i18n="contact-form-subject-other">Other</option>
+                </select>
+              </div>
+              
+              <div class="form-field">
+                  <label class="form-label" for="message" data-i18n="contact-form-message">Message *</label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your inquiry..." required></textarea>
+              </div>
+
+              <!-- Spam Protection -->
+              <input type="text" name="_gotcha" style="display:none">
+            
+              <button type="submit" class="btn btn-primary form-submit" data-i18n="contact-form-submit">Send Message</button>
+          </form>
+        </div>
+        
+        <!-- COMPANY INFORMATION -->
+        <div data-reveal>
+          <h3 style="margin-bottom: var(--sp-24); color: var(--color-text-primary);" data-i18n="contact-info-title">Company Information</h3>
+          
+          <div style="background-color: var(--color-bg-secondary); padding: var(--sp-24); border-radius: var(--br-xl); margin-bottom: var(--sp-24);">
+            <div style="margin-bottom: var(--sp-20);">
+              <h4 style="font-size: var(--fs-lg); color: var(--color-accent-secondary); margin-bottom: var(--sp-8);" data-i18n="contact-info-production">Production & Operations</h4>
+              <p style="color: var(--color-text-secondary); line-height: var(--lh-relaxed); margin-bottom: var(--sp-8);">
+                <strong data-i18n="contact-info-production-detail">Robusta</strong><br>
+                <span data-i18n="contact-info-location-temanggung">Kandangan, Temanggung</span>
+              </p>
+              <p style="color: var(--color-text-secondary); line-height: var(--lh-relaxed);">
+                <strong data-i18n="contact-info-distribution">Arabika</strong><br>
+                <span data-i18n="contact-info-location-salatiga">Kandangan, Salatiga</span>
+              </p>
+            </div>
+
+            <div style="margin-bottom: var(--sp-16);">
+              <h4 style="font-size: var(--fs-lg); color: var(--color-accent-secondary); margin-bottom: var(--sp-8);" data-i18n="contact-info-contact-heading">Contact</h4>
+              <p style="color: var(--color-text-secondary);">
+                <strong data-i18n="contact-info-email">Email:</strong> <a href="mailto:niluh.osiniditami@gmail.com">niluh.osiniditami@gmail.com</a><br>
+                <strong data-i18n="contact-info-phone">WhatsApp:</strong> <a href="https://wa.me/6282139891329" target="_blank" rel="noopener noreferrer">+62 821-3989-1329</a>
+              </p>
+            </div>
+          </div>
+          
+          <div style="background-color: var(--color-accent-primary); padding: var(--sp-20); border-radius: var(--br-xl); text-align: center;">
+            <p style="color: var(--color-text-primary); font-weight: 500; margin-bottom: var(--sp-12);" data-i18n="contact-info-response">Quick Response Time</p>
+            <p style="color: var(--color-text-primary); font-size: var(--fs-sm);" data-i18n="contact-info-response-text">We typically respond within 24 hours on business days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section style="background-color: var(--color-bg-secondary);">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="section-faq">Frequently Asked Questions</h2>
+      </div>
+      
+      <div class="max-width-lg">
+        <div class="accordion-item open">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-1-q">How can I become a distributor?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body">
+                <p data-i18n="faq-1-a">To become a distributor, please contact our sales team at niluh.osiniditami@gmail.com or fill out our contact form above. We'll review your request and discuss the best options for your business. Our team typically responds within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-2-q">What is the minimum order quantity?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="faq-2-a">
+              Minimum order quantities vary depending on the order type and product selection. For wholesale and distributor orders, we typically have a MOQ of 50kg. For retail orders, the minimum is usually 5kg per order. Custom quantities can be negotiated based on specific requirements. Contact our sales team for details.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-3-q">Do you provide wholesale pricing?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="faq-3-a">
+              Yes, we offer competitive wholesale pricing for qualified distributors and bulk buyers. Our pricing structure is tiered based on order volume and order frequency. For specific wholesale inquiries, please contact our sales team at niluh.osiniditami@gmail.com or via WhatsApp at <a href="https://wa.me/6282139891329" target="_blank" rel="noopener noreferrer">+62 821-3989-1329</a>.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-4-q">Can businesses request custom products?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="faq-4-a">
+              Absolutely! We offer custom blending services for corporate clients and hospitality partners. Whether you need a unique flavor profile, custom packaging, or branded products, our team can work with you to create the perfect solution. Minimum quantities apply. Reach out to discuss your specific needs.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-5-q">What is your shipping and delivery policy?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="faq-5-a">
+              We offer both domestic and international shipping with various delivery options. Standard delivery typically takes 3-5 business days, while express options are available for urgent orders. All shipments are tracked and insured. Shipping costs are calculated based on order size and destination. Contact us for detailed shipping information.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-6-q">Do you offer technical support and training?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="faq-6-a">
+              Yes, we provide comprehensive support to all our partners. This includes product training, storage recommendations, brewing guides, and marketing materials. For distributor and retail partners, we offer on-site training and regular support calls. Our customer support team is available during business hours to assist with any questions.
+            </div>
+          </div>
+        </div>
+        
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <h4 style="margin: 0;" data-i18n="faq-7-q">What are your payment terms?</h4>
+            <div class="accordion-icon">▼</div>
+          </div>
+          <div class="accordion-content">
+            <div class="accordion-body" data-i18n="faq-7-a">
+              Payment terms vary based on the order type and order history. Standard options include payment upon order, bank transfer, or credit terms for repeat customers. For specific payment arrangements, please discuss directly with our sales team or contact niluh.osiniditami@gmail.com.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CALL TO ACTION SECTION -->
+  <section style="background-color: var(--color-accent-primary);">
+    <div class="container">
+      <div class="text-center">
+        <h2 style="color: var(--color-text-primary); margin-bottom: var(--sp-16);" data-i18n="cta-meaningful">Let's Create Something Meaningful Together</h2>
+        <p style="font-size: var(--fs-lg); color: var(--color-text-primary); margin-bottom: var(--sp-24); max-width: 600px; margin-left: auto; margin-right: auto;" data-i18n="cta-meaningful-desc">
+          Whether you're interested in our products or have questions, we're ready to discuss how we can work together.
+        </p>
+        <a href="#contact-section" class="btn btn-secondary" data-i18n="cta-touch">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 style="color: var(--color-accent-secondary);">Kanduman Cascara & Coffee</h3>
+          <p data-i18n="footer-about-text">Premium Robusta, Arabica, dan Cascara — wholesale dan retail dari Jawa Tengah.</p>
+          <p style="margin-top: var(--sp-12);">
+            <strong>Email:</strong> <a href="mailto:niluh.osiniditami@gmail.com">niluh.osiniditami@gmail.com</a><br>
+            <strong data-i18n="footer-locations">Locations:</strong><br>
+            <span data-i18n="footer-location-production">Kandangan, Kabupaten Temanggung, Jawa Tengah (Production Center)</span><br>
+            <span data-i18n="footer-location-distribution">Kandangan, Kota Salatiga, Jawa Tengah (Distribution & Development)</span>
+          </p>
+        </div>
+        
+        <div class="footer-section">
+          <h3 data-i18n="footer-quick-links">Quick Links</h3>
+          <a href="index.html" data-i18n="footer-link-story">Our Story</a>
+          <a href="collection.html" data-i18n="footer-link-collection">Collection</a>
+          <a href="contact.html" data-i18n="footer-link-contact">Contact</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3 data-i18n="footer-business">Business</h3>
+          <a href="#contact-section" data-i18n="footer-business-touch">Get in Touch</a>
+          <a href="#contact-section" data-i18n="footer-business-wholesale">Wholesale Inquiry</a>
+          <a href="#contact-section" data-i18n="footer-business-support">Order Support</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3 data-i18n="footer-resources">Resources</h3>
+          <a href="#faq" data-i18n="footer-link-faq">FAQ</a>
+          <a href="#" data-i18n="footer-link-brewing-guide">Brewing Guide</a>
+          <a href="#" data-i18n="footer-link-storage-tips">Storage Tips</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3 data-i18n="footer-contact">Contact</h3>
+          <p data-i18n="footer-contact-email">Email: niluh.osiniditami@gmail.com</p>
+          <p data-i18n="footer-contact-phone">WhatsApp: <a href="https://wa.me/6282139891329" class="footer-link">+62 821-3989-1329</a></p>
+          <p data-i18n="footer-contact-address">Kandangan, Kabupaten Temanggung; Kandangan, Kota Salatiga — Jawa Tengah, Indonesia</p>
+        </div>
+      </div>
+      
+      <div class="footer-divider"></div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright" data-i18n="footer-copyright">
+          &copy; 2026 Kanduman Cascara & Coffee. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
